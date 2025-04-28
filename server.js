@@ -57,4 +57,4 @@ app.get("/:shortUrl",async(req,res)=>{
 app.listen(PORT,(err)=>{
     if(err) console.log(err);
     console.log(`SERVER is listening on http://localhost:${PORT}`)
-})
+});
